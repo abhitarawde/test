@@ -8,12 +8,22 @@ public class Calculator {
         return a - b;
     }
 
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public static double divide(int a, int b) {
+        return (double)a / b;
+    }
+
     public static void main(String[] args) {
 
-        int a = 10;
-        int b = 5;
+        int a = 20;
+        int b = 4;
 
         System.out.println("Addition: " + add(a,b));
         System.out.println("Subtraction: " + subtract(a,b));
+        System.out.println("Multiplication: " + multiply(a,b));
+        System.out.println("Division: " + divide(a,b));
     }
 }
